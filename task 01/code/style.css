@@ -1,7 +1,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
  font-family: Arial, sans-serif;
- background: #cfdcd7; /* Sri Lanka green */
+ background: #1a4d8f ; /* Sri Lanka green */
  display: flex;
  justify-content: center;
  min-height: 100vh;
@@ -9,11 +9,11 @@ body {
 }
 .card {
  background: #ffffff;
- width: 320px;
+ width: 520px;
  border-radius: 16px;
- padding: 24px;
+ padding: 40px;
  text-align: center;
- box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+ 
 }
 .photo {
  width: 120px;
@@ -44,4 +44,13 @@ h1 { margin-top: 12px; color: #0b5a3c; }
  padding: 10px 20px;
  border-radius: 8px;
 }
+.University {
+display: inline-block;
+ background: #07c0ad;
+ color: #fff;
+ text-decoration: none;
+ padding: 10px 20px;
+ border-radius: 8px;
+}
+
 .link:hover { background: #0b5a3c; } 
