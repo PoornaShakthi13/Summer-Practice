@@ -1,0 +1,43 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+ font-family: Arial, sans-serif;
+ background: #0b5a3c;
+ color: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+.board {
+ background: rgba(0,0,0,0.25);
+ padding: 30px 40px;
+ border-radius: 16px;
+ text-align: center;
+}
+h1 { margin-bottom: 16px; }
+.score { font-size: 64px; font-weight: bold; }
+.overs { margin: 8px 0 20px; opacity: 0.85; }
+.buttons {
+ display: flex;
+ gap: 10px;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+button {
+ font-size: 18px;
+ padding: 12px 18px;
+ border: none;
+ border-radius: 8px;
+ background: #ffb300;
+ color: #222;
+ cursor: pointer;
+}
+button:hover { background: #ffc845; }
+.wicket { background: #c0392b; color: #fff; }
+.wicket:hover { background: #e74c3c; }
+.reset {
+ margin-top: 18px;
+ background: #555;
+ color: #fff;
+}
+.reset:hover { background: #777; }
