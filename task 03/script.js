@@ -8,7 +8,7 @@ let balls = 0;
 const runsEl = document.getElementById("runs");
 const wicketsEl = document.getElementById("wickets");
 const ballsEl = document.getElementById("balls");
-const overE1 = document.getElementById("over");
+const overEl = document.getElementById("over");
 // Show the current values on the page
 function render() {
  runsEl.textContent = runs;
