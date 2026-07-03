@@ -31,10 +31,10 @@ button {
  background: #ffb300;
  color: #222;
  cursor: pointer;
-}
+}   
 button:hover { background: #ffc845; }
-.wicket { background: #c0392b; color: #fff; }
-.wicket:hover { background: #e74c3c; }
+.wicket { background: #100138; color: #fff; }
+.wicket:hover { background: #5ed662; }
 .reset {
  margin-top: 18px;
  background: #555;
